@@ -1,0 +1,23 @@
+.search{
+    
+    background-color:rgb(206, 179, 211);
+    margin-right: 50px;
+    margin-left: 0;
+    height: 20%;
+    
+    
+}
+.search:hover{
+    background-color: rgb(238, 238, 240);
+}
+.searchcon{
+    padding: 20px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
