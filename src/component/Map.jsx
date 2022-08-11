@@ -9,7 +9,7 @@ const Map = () => {
     <>
     <Box sx={{height:"80vh",width:"100%"}}>
       <GoogleMapReact
-      bootstrapURLKeys={{key:'AIzaSyDlyiwCqbmPiFDHpSrwv-2sN3pt0bKdRhw'}}
+      bootstrapURLKeys={{key:process.env.API_KEY}}
       defaultCenter={coordinate}
       center={coordinate}
       defaultZoom={14}
