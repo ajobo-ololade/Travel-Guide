@@ -16,11 +16,11 @@ const Navbar = () => {
         Travel Guide
        </Typography>
        <Box sx={{display:"flex"}}>
-       <Typography variant="h6"  sx={{display:{xs:'none',sm:'block'}}}>
+       <Typography variant="h6"  sx={{display:{xs:'none',sm:'block'}}} className="me-3">
        Explore new places
        </Typography>
        {/* <Autocomplete> */}
-        <Box className='search' sx={{position:'relative',borderRadius:"50px",width:{xs:'auto',sm:"20"}}} >
+        <Box className='search' sx={{position:'relative',borderRadius:"10px",width:{xs:'auto',sm:"20"}}} >
             <Box className='searchcon' sx={{color:"purple"}}>
                 <Search/>   
             </Box>
